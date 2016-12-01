@@ -1,3 +1,12 @@
+$size: 22px;
+$primaryColor: purple;
+$primaryColorLight: lighten($primaryColor, 20%);
+
 .name {
-    font-size: 22px;
+    font-size: $size;
+    color: $primaryColor;
+}
+
+.genus {
+    color: $primaryColorLight;
 }
